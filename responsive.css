@@ -1,0 +1,489 @@
+@media only screen and (max-width:350px) {
+    .menu {
+        visibility: visible;
+        cursor: pointer;
+        z-index: 4;
+    }
+
+    .navMenu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 3rem;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: #3c523b;
+        flex-direction: column;
+    }
+
+    .nav li {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav {
+        padding-left: 0px;
+    }
+
+    .name {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .work {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0.4rem 1.3rem */
+    }
+
+    .workAbout {
+        width: 26rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0.5rem 1.3rem; */
+        text-align: justify;
+    }
+
+    .section {
+        width: 35rem;
+        top: 41rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 0;
+    }
+
+    .btn-box {
+        width: 24rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 61rem;
+    }
+
+    .icons {
+        top: 71rem;
+        margin: 0.5rem 3.3rem;
+    }
+
+    .homeImg {
+        top: 10rem;
+        left: 0rem;
+    }
+
+    .btn-box .btn {
+        margin: 0.8rem 0rem;
+    }
+
+    .aboutMain {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .box {
+        top: 78rem;
+        height: 25rem;
+        width: 25rem;
+        position: relative;
+        left: 5rem;
+
+
+    }
+
+    .miniBox {
+        height: 4rem;
+        width: 4rem;
+        font-size: 0.8rem;
+    }
+
+    .aboutMain p {
+        width: 12rem;
+        top: 98rem;
+        left: 12rem;
+        text-align: justify;
+    }
+
+    .skillsLogo {
+        top: 103rem;
+        width: 34rem;
+    }
+
+    .skillsContainer {
+        width: 31rem
+    }
+
+    .skillGraph {
+        width: 30rem;
+    }
+
+    .skillsWidth:nth-child(3) {
+        width: 23rem;
+    }
+
+    .contactMain {
+        top: 150rem;
+        width: 35rem;
+    }
+}
+
+@media only screen and (min-width:351px) and (max-width:480px) {
+    .menu {
+        visibility: visible;
+        cursor: pointer;
+        z-index: 4;
+    }
+
+    .navMenu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 3rem;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: #3c523b;
+        flex-direction: column;
+    }
+
+    .nav li {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav {
+        padding-left: 0px;
+    }
+
+    .name {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0.5rem 3.3rem; */
+    }
+
+    .work {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0.4rem 3.3rem */
+    }
+
+    .workAbout {
+        width: 27rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0.5rem 3.3rem; */
+        text-align: justify;
+    }
+
+    .section {
+        width: 35rem;
+        top: 41rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 0;
+        
+    }
+
+    .btn-box {
+        width: 26rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 61rem;
+        /* left: 1rem; */
+    }
+
+    .icons {
+        top: 71rem;
+        /* margin: 0.5rem 3.3rem; */
+        width: 100%;
+    }
+
+    .homeImg {
+        top: 10rem;
+        left: 0rem;
+    }
+
+    .btn-box .btn {
+        margin: 0.8rem 0rem;
+    }
+
+    .aboutMain {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .box {
+        top: 68rem;
+        height: 25rem;
+        width: 25rem;
+        position: relative;
+        left: 5rem;
+
+
+    }
+
+    .miniBox {
+        height: 4rem;
+        width: 4rem;
+        font-size: 0.8rem;
+    }
+
+    .aboutMain p {
+        width: 12rem;
+        top: 88rem;
+        left: 12rem;
+        text-align: justify;
+    }
+
+    .skillsLogo {
+        top: 87rem;
+        width: 34rem;
+    }
+
+    .skillsContainer {
+        width: 31rem
+    }
+
+    .skillGraph {
+        width: 30rem;
+    }
+
+    .skillsWidth:nth-child(3) {
+        width: 23rem;
+    }
+
+    .contactMain {
+        width: 35rem;
+        top: 130rem;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:580px) {
+    .menu {
+        visibility: visible;
+        cursor: pointer;
+        z-index: 4;
+    }
+
+    .navMenu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 4rem;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: #3c523b;
+        flex-direction: column;
+    }
+
+    .nav li {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav {
+        padding-left: 0px;
+    }
+
+    .name {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0.5rem 7.3rem; */
+    }
+
+    .work {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0.4rem 7.3rem */
+    }
+
+    .workAbout {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0.5rem 7.3rem; */
+        text-align: justify;
+    }
+
+    .section {
+        width: 42rem;
+        top: 41rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 0;
+    }
+
+    .btn-box {
+        width: 33rem;
+        left: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 60rem;
+        /* left: 1rem; */
+    }
+
+    .icons {
+        top: 71rem;
+        /* margin: 0.5rem 3.3rem; */
+        /* left: 11rem; */
+        width: 95%;
+    }
+
+    .homeImg {
+        top: 10rem;
+        left: 4rem;
+    }
+
+    .btn-box .btn {
+        margin: 0.8rem 0rem;
+    }
+
+    .aboutMain {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .box {
+        top: 77rem;
+        height: 25rem;
+        width: 25rem;
+        position: relative;
+        left: 8rem;
+
+
+    }
+
+    .miniBox {
+        height: 4rem;
+        width: 4rem;
+        font-size: 0.8rem;
+    }
+
+    .aboutMain p {
+        width: 12rem;
+        top: 97rem;
+        left: 15rem;
+        text-align: justify;
+    }
+
+    .skillsLogo {
+        top: 103rem;
+        width: 43rem;
+    }
+
+    .skillsContainer {
+        width: 31rem
+    }
+
+    .skillGraph {
+        width: 30rem;
+    }
+
+    .skillsWidth:nth-child(3) {
+        width: 23rem;
+    }
+
+    .contactMain {
+        width: 42rem;
+        top: 150rem;
+    }
+}
+
+@media only screen and (min-width:581px) and (max-width:1420px) {
+    .menu {
+        visibility: hidden;
+        cursor: pointer;
+    }
+
+    .homeImg {
+        top: 8rem;
+    }
+
+    .aboutMain {
+        height: 80rem;
+        width: 84rem;
+    }
+
+    .aboutMain p {
+
+        top: 73rem;
+    }
+
+    .skillsLogo {
+        width: 84rem;
+    }
+
+    .contactMain {
+        top: 120rem;
+        width: 84rem;
+    }
+}
+
+@media only screen and (min-width:1421px) {
+    .menu {
+        visibility: hidden;
+        cursor: pointer;
+    }
+    .homeImg {
+        width: 34rem;
+        top: 8rem;
+        left: 65rem;
+    }
+    .contactMain {
+        top: 120rem;
+    }
+}
+
+/* @media only screen and (min-width:1512px) and(max-width:1534px){
+    .homeImg {
+        left: 57rem;
+        top: 8rem;
+    }
+} */
