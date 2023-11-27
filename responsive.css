@@ -266,7 +266,7 @@
     }
 
     .skillsLogo {
-        top: 87rem;
+        top: 125rem;
         width: 34rem;
     }
 
@@ -284,7 +284,15 @@
 
     .contactMain {
         width: 35rem;
-        top: 130rem;
+        top: 151rem;
+    }
+    .projectSection {
+        margin: 0rem 2rem;
+        left: 5rem;
+        top: 48rem;
+    }
+    .text {
+        top: 11rem;
     }
 }
 
@@ -340,7 +348,7 @@
         align-items: center;
         justify-content: center;
         /* margin: 0.5rem 7.3rem; */
-        text-align: justify;
+        text-align: center;
     }
 
     .section {
@@ -354,7 +362,7 @@
     }
 
     .btn-box {
-        width: 33rem;
+        width: 100%;
         left: 3rem;
         display: flex;
         flex-direction: column;
@@ -362,6 +370,7 @@
         justify-content: center;
         top: 60rem;
         /* left: 1rem; */
+        left: 5rem;
     }
 
     .icons {
@@ -414,7 +423,7 @@
     }
 
     .skillsLogo {
-        top: 103rem;
+        top: 144rem;
         width: 43rem;
     }
 
@@ -432,7 +441,15 @@
 
     .contactMain {
         width: 42rem;
-        top: 150rem;
+        top: 169rem;
+    }
+    .projectSection {
+        margin: 0rem 2rem;
+        left: 5rem;
+        top: 62rem;
+    }
+    .text {
+        top: 11rem;
     }
 }
 
@@ -461,11 +478,18 @@
     }
 
     .contactMain {
-        top: 120rem;
+        top: 150rem;
         width: 84rem;
     }
+    .projectSection {
+        margin: 0rem 2rem;
+        /* left: 18rem; */
+        top: 38rem;
+    }
+    .text {
+        top: 22rem;
+    }
 }
-
 @media only screen and (min-width:1421px) {
     .menu {
         visibility: hidden;
@@ -479,6 +503,15 @@
     .contactMain {
         top: 120rem;
     }
+    .projectSection {
+        margin: 0rem 2rem;
+        left: 18rem;
+        top: 38rem;
+    }
+    .text {
+        top: 22rem;
+    }
+    
 }
 
 /* @media only screen and (min-width:1512px) and(max-width:1534px){
